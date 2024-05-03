@@ -26,6 +26,12 @@ export const SupportContact = styled.div`
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+
+    @media only screen and (max-width: 400px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const SupportContactIcon = styled.div`
@@ -52,6 +58,9 @@ export const SupportContactInfo = styled.div`
     align-items: flex-start;
     margin: 2%;
     width: 100%;
+    @media only screen and (max-width: 400px) {
+        align-items: center;
+    }
 
 `;
 
@@ -67,6 +76,10 @@ export const EmailArea = styled.div`
     align-items: center;
     width: 100%;
     color: rgb(131, 131, 131);
+
+    @media only screen and (max-width: 400px) {
+        flex-direction: column;
+    }
 `;
 
 export const EmailText = styled.span`
